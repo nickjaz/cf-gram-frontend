@@ -1,0 +1,39 @@
+@import '../lib/vars';
+
+body {
+  font-family: $brand-font;
+  font-size: 2vw;
+  background: #eee;
+}
+
+button {
+  margin: $gutter-sm;
+  padding: $gutter-sm / 2 $gutter-sm;
+  font-size: 2vw;
+  color: $white;
+  background: $btn-primary;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: $transition;
+
+  &:hover {
+    background: $black;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: $black;
+}
+
+img {
+  border: 2px solid $white;
+  border-radius: 3px;
+  box-shadow: 2px 1px 1px $brand-tertiary;
+  transition: $transition;
+
+  &:hover {
+    box-shadow: 4px 2px 2px $brand-tertiary;
+  }
+}
